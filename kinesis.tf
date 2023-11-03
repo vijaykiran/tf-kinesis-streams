@@ -10,8 +10,8 @@ locals {
   envs = {
     dev = {
       name        = "dev"
-      on_demand   = true
-      shard_count = null
+      on_demand   = false
+      shard_count = 4
     },
 
     prod = {
